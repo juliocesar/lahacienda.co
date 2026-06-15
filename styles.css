@@ -39,6 +39,9 @@ a:hover { text-decoration: underline; }
 .nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
 .nav a { color: var(--muted); font-size: 0.9rem; }
 .nav a:hover { color: var(--fg); text-decoration: none; }
+.lang { color: var(--muted); font-size: 0.9rem; }
+.lang a { color: var(--muted); }
+.lang a[aria-current="page"] { color: var(--fg); }
 
 .wrap {
   max-width: 52rem;
