@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Política de Privacidade — cecco — La Hacienda</title>
-  <meta name="description" content="Política de privacidade do cecco, da La Hacienda. O cecco não coleta nenhum dado pessoal e usa apenas diagnósticos de falhas anônimos, não vinculados à sua identidade." />
+  <meta name="description" content="Política de privacidade do cecco, da La Hacienda. O cecco funciona no seu dispositivo e não exige conta. Os diagnósticos de falhas são anônimos, e uma pergunta feita ao sábio nunca é armazenada nem vinculada à sua identidade." />
   <link rel="alternate" hreflang="en" href="https://lahacienda.co/privacy.html" />
   <link rel="alternate" hreflang="pt-BR" href="https://lahacienda.co/pt/privacy.html" />
   <link rel="alternate" hreflang="x-default" href="https://lahacienda.co/privacy.html" />
@@ -31,15 +31,17 @@
     <section class="block">
       <h2>Visão geral</h2>
       <p>
-        <strong>O cecco não coleta, armazena ou transmite nenhum dado
-        pessoal.</strong> O aplicativo é executado inteiramente no seu
-        dispositivo e funciona offline.
+        <strong>O cecco funciona no seu dispositivo e não exige conta.</strong>
+        Existe uma única exceção, e ela só acontece se você quiser: ao fazer uma
+        pergunta ao sábio, essa pergunta é enviada para ser respondida. Isso está
+        descrito em detalhe abaixo.
       </p>
       <p>
-        O cecco calcula tudo o que exibe &mdash; o dia e a hora planetários, a
-        fase, o signo e a mansão da lua, e o conteúdo que sugere &mdash;
+        Sua leitura &mdash; o dia e a hora planetários, a fase, o signo e a
+        mansão da lua, e o conteúdo que o cecco sugere &mdash; é calculada
         localmente, no seu dispositivo, a partir da data, hora e localização que
-        você fornece. Nada disso sai do seu dispositivo.
+        você fornece. Nada disso sai do seu dispositivo, e o cecco não precisa de
+        conexão para fazer esse cálculo.
       </p>
       <p>
         Não usamos análise de dados (analytics) nem publicidade, não rastreamos
@@ -47,9 +49,10 @@
       </p>
       <p>
         Se você conceder ao cecco acesso à localização do seu dispositivo, ela é
-        usada apenas no próprio dispositivo para calcular sua leitura
-        astrológica local e nunca é transmitida ou armazenada fora do
-        dispositivo.
+        usada no próprio dispositivo para calcular sua leitura astrológica local
+        e não é transmitida nem armazenada fora do dispositivo. A única exceção é
+        uma pergunta feita ao sábio: sua localização vai junto com ela, para que
+        a resposta seja sobre o seu céu, e não sobre o de outra pessoa.
       </p>
       <p>
         Não vendemos seus dados nem os compartilhamos com corretores de dados
@@ -64,9 +67,42 @@
         Para encontrar e corrigir erros, o cecco usa o
         <a href="https://sentry.io">Sentry</a> para coletar relatórios anônimos
         de falhas e erros. Eles são estritamente de diagnóstico e
-        <strong>não são vinculados à sua identidade</strong>: não contêm conta,
-        nome, localização do dispositivo nem nada que associe um relatório a
-        você. Nunca são usados para rastrear você ou para publicidade.
+        <strong>não são vinculados à sua identidade</strong>: coordenadas, seu
+        fuso horário e identificadores de compra são removidos no seu dispositivo
+        antes do envio do relatório, e ele não contém conta, nome nem nada que
+        associe um relatório a você. Nunca são usados para rastrear você ou para
+        publicidade.
+      </p>
+    </section>
+
+    <section class="block">
+      <h2>Perguntar ao sábio (&ldquo;Ask the sage&rdquo;)</h2>
+      <p>
+        Perguntar ao sábio é opcional. O aplicativo está em inglês, e essa é a
+        função chamada &ldquo;Ask the sage&rdquo;. Se você usá-la, a pergunta que
+        você escreve e a localização em que o cecco está configurado são enviadas
+        ao nosso servidor e repassadas à
+        <a href="https://www.anthropic.com">Anthropic</a>, que compõe a resposta.
+      </p>
+      <p>
+        <strong>Não armazenamos sua pergunta nem sua localização.</strong> O
+        único registro que guardamos de uma pergunta é que ela foi feita e paga.
+        Sua pergunta nunca é associada à sua identidade, nunca é usada para
+        publicidade, criação de perfis ou treinamento de modelos, e nada do que
+        você pergunta é mostrado a outra pessoa. A resposta é salva apenas no seu
+        dispositivo e é removida se você excluir o aplicativo.
+      </p>
+    </section>
+
+    <section class="block">
+      <h2>Compras</h2>
+      <p>
+        As compras são processadas pela Apple ou pelo Google. Nunca temos acesso
+        aos seus dados de pagamento. Para saber o que você comprou e quantas
+        perguntas ainda tem, guardamos um registro de cada compra e de cada
+        pergunta associado a um identificador anônimo emitido pelo nosso provedor
+        de pagamentos. Ele não contém nome, e-mail nem localização do
+        dispositivo, e não podemos usá-lo para descobrir quem você é.
       </p>
     </section>
 
@@ -80,7 +116,7 @@
   </main>
 
   <footer class="legal">
-    <p>Em vigor desde 14 de julho de 2026</p>
+    <p>Em vigor desde 17 de agosto de 2026</p>
     <p>La Hacienda Serviços de Tecnologia da Informação Ltda.</p>
     <p>CNPJ 38.489.943/0001-00 · Três Coroas, Rio Grande do Sul, Brasil</p>
   </footer>
